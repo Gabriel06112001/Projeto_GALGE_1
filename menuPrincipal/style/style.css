@@ -3,6 +3,9 @@
     margin:0;
     border: 0;
 }
+body{
+  font-family: 'Lato';
+}
 
 .bg1{
     background-image: url(../imagem/user\ 1.png);
@@ -26,6 +29,7 @@
     width:48%;
     height:450px;
     float: left;
+    font-family: 'Lato';
    
 
 }
@@ -75,6 +79,7 @@ button{
     height: 300px;
     left: 75px;
     top: 125px;
+    font-family: 'Lato';
 
 }
 input{
@@ -96,6 +101,7 @@ input[type=text], select {
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Lato';
   }
   
   input[type=submit] {
@@ -129,6 +135,16 @@ input[type=text], select {
     float: left;
     width: 75%;
     margin-top: 6px;
+  }
+  button {
+    background-color: #ffffff;
+    color: rgb(66, 63, 63);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 70px;
+    
   }
   
   /* Clear floats after the columns */

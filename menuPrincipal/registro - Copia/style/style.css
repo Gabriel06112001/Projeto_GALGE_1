@@ -3,6 +3,9 @@
     margin:0;
     border: 0;
 }
+body{
+  font-family: 'Lato';
+}
 
 .bg1{
     background-image: url(../imagem/user\ 1.png);
@@ -113,6 +116,7 @@ input[type=text], select {
     float: left;
     width: 75%;
     margin-top: 6px;
+    font-family: 'Lato';
   }
   
   /* Clear floats after the columns */
